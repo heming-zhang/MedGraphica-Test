@@ -1,0 +1,25 @@
+name: kg_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ujson
+  - numpy
+  - pandas
+  - pip
+  - spacy
+  - tensorboard=2.4
+  - tensorboardX=2.2
+  - tqdm
+  - urllib3
+  - matplotlib
+  - networkx=2.5
+  - scikit-learn=0.24
+  - scikit-image=0.18
+  - rpy2
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio --index-url https://download.pytorch.org/whl/cu118
