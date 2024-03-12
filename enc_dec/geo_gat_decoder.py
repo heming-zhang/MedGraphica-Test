@@ -97,6 +97,8 @@ class GATDecoder(nn.Module):
         # import pdb; pdb.set_trace()
         ### Cross modality fusion
         x_embed = torch.cat([x, batch_entity_embeddings_tensor], dim=1)
+        # cat text embedding 
+        
         x_embed = self.first_cross_modality(x_embed)
 
         ### GAT layers
