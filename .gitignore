@@ -16,6 +16,7 @@
 /UCSC-process/
 /ROSMAP-raw/
 /ROSMAP-process/
+/DNA-sequence/
 /Regulatory-network-data/
 
 # Remove the processed data files
