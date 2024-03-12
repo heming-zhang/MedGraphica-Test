@@ -16,7 +16,7 @@
 /UCSC-process/
 /ROSMAP-raw/
 /ROSMAP-process/
-/DNA-sequence/
+/DNA-sequence/Chunk1_gene_transcript_protein_sequences.csv
 /Regulatory-network-data/
 
 # Remove the processed data files
